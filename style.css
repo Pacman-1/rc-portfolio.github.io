@@ -17,6 +17,7 @@ body{
     display: grid;
     grid-template-columns: 30% 70%;
 }
+
 /* Personal card*/
 .personal-card {
     background-color: white;
@@ -28,33 +29,41 @@ body{
 	width: 300px;
     text-align: center;
 }
+
 .personal-card i:hover{
     color: rgb(77, 75, 75);
 }
+
 .personal-card div{
     margin-top: 45px;
 }
+
 .personal-card a{
     text-decoration: none;
 }
+
 .social-media i{
     color: black;
     font-size: 30px;
     margin: 10px;
 }
+
 .location{
     font-size: 18px;
     width: 100%;
     height: 150px;
     background-color: rgb(30, 210, 255);
 }
+
 .location i, .location i:visited {
     color: black;
 }
+
 .location div {
     margin: 40px;
     padding-top: 20px ;
 }
+
 .btn.btn-primary{
     width: 150px;
    font-size: 18px;
@@ -72,11 +81,13 @@ body{
     height: 600px;
 	width: 800px;
 }
+
 .content{
     position: relative;
     display: flex;
     justify-content: center;
 }
+
 .about-section{
     padding: 25px 40px;
 }
@@ -84,26 +95,33 @@ body{
     color: #333;
     margin-bottom: 25px;
 }
+
 .underline{
     width: 10%;
     height: 5px;
     background-color: rgb(30, 210, 255);
     margin-bottom: 20px;
 }
+
 .can-do{
     padding:25px 40px;
     color: #333;
 }
+
+
 .talents{
     padding-bottom: 200px;
     padding:1px 90px;
     max-width: 700px;
     font-size: 13px;
 }
+
+
 .heading-text{
     color: #333;
     font-size: 19px;
 }
+
 .icons{
     color:rgb(30, 210, 255) ;
     position: absolute;
@@ -111,6 +129,8 @@ body{
     margin-left: 10px;
     font-size: 40px;
 }
+
+
 .experiance{
     display: flex;
     margin: 40px;
@@ -225,7 +245,7 @@ color: #333;
 
 
 
-
+/*Phone Media Query*/
 
 
 @media screen and (max-width: 600px) {
@@ -264,6 +284,8 @@ color: #333;
     }
 
 }
+
+
 
 @media screen and (min-width: 600px) and (max-width:1023px) {
    
@@ -323,6 +345,9 @@ color: #333;
         width: 130px;
      }
  }
+
+
+/* 4K Media Query */
 
  @media screen and (min-width: 3840px) {
    .about-me-card{

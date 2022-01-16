@@ -7,7 +7,6 @@ navButton.addEventListener("click",()=>{
     icon.remove();
     port.classList.add("visible")
     navButton.classList.add("expand")
-    
 })
 
 
